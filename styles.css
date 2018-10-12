@@ -1,6 +1,12 @@
 @charset "UTF-8";
 body{font-family: 'Oswald', sans-serif;}
 
+/*------picture grid--------*/
+
+
+
+/*-------------------------------*/
+
 
 img {width:100%;}
 
@@ -75,10 +81,10 @@ margin-top:17px;
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
 
 /*.slantedDivA{
       position: relative;
