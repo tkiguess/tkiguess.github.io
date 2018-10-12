@@ -21,10 +21,10 @@ h1{font-size: 3em;}
 
 body {
 border: 5px solid black;
-padding: 30px
+padding: .2em;
 }
 
-#sidewaystext{
+/*#sidewaystext{
 	writing-mode: vertical-rl;
 text-orientation: mixed;
 }
@@ -79,7 +79,7 @@ margin-top:17px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
+}*/
 
 /*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
