@@ -10,168 +10,90 @@
 
 <body>
 	
-	<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="about.html"><h1>"Osbert Tufor"</h1></a>
-  <a href="mailto:goldentouchphotos@gmail.com" target="_top"><i class="far fa-envelope"></i>  goldentouchphotos@gmail.com</a>
-  <a href="#"><i class="fas fa-phone"></i> 240 614 9914</a>
-  <a href="https://www.instagram.com/goldentouchphotos/"><i class="fab fa-instagram"></i>  goldentouchphotos</a>
-	<a href="https://www.youtube.com/watch?v=sK-pdRQrrIg&feature=youtu.be"><i class="fab fa-youtube"></i> HeyOzzy!</a>
-</div>
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()" id="menu">&#9776;</span>
-	
-	
-	
-	<div align="center">
-	<div class="slantedDivA">
-		
-	  <h1><strong>Golden Touch Photos</strong></h1>
-		
-		
-<div class="row">
-<div class="colum">
-<img src="/pictures/1524354337820.JPEG" alt="Mountains" style="width:100%">
-<img src="/pictures/IMG_1424.JPG" alt="Lights" style="width:100%">
-<img src="/pictures/1523476130771.JPEG" alt="Nature" style="width:100%">
-</div>
+	<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+</nav>
 
-<div class="colum">  
-<img src="/pictures/IMG_3778.JPG" alt="Mountains" style="width:100%">
-<img src="/pictures/1526834132335.JPEG" alt="Nature" style="width:100%">
-<img src="/pictures/1519968778755.JPEG" alt="Nature" style="width:100%">
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PHOTOLIO</b></h1>
+  <p><b>A template made by w3.css for photographers.</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
 </div>
 
-<div class="colum">  
-<img src="/pictures/IMG_3778.JPG" alt="Mountains" style="width:100%">
-<img src="/pictures/1526834132335.JPEG" alt="Nature" style="width:100%">
-<img src="/pictures/1519968778755.JPEG" alt="Nature" style="width:100%">
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/sound.jpg" style="width:100%">
+    <img src="/w3images/woods.jpg" style="width:100%">
+    <img src="/w3images/rock.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="/w3images/coffee.jpg" style="width:100%">
+    <img src="/w3images/bridge.jpg" style="width:100%">
+    <img src="/w3images/notebook.jpg" style="width:100%">
+    <img src="/w3images/london.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/avatar_g.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/workbench.jpg" style="width:100%">
+    <img src="/w3images/gondol.jpg" style="width:100%">
+    <img src="/w3images/skies.jpg" style="width:100%">
+    <img src="/w3images/lights.jpg" style="width:100%">
+    <img src="/w3images/workshop.jpg" style="width:100%">
+  </div>
 </div>
 
-<div class="colum">  
-<img src="/pictures/IMG_3778.JPG" alt="Mountains" style="width:100%">
-<img src="/pictures/1526834132335.JPEG" alt="Nature" style="width:100%">
-<img src="/pictures/1519968778755.JPEG" alt="Nature" style="width:100%">
-</div>
+<!-- End Page Content -->
 </div>
 
-rick ross big boss
 
-
-
-    <!-- <div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="/pictures/1524354337820.JPEG" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/pictures/IMG_1424.JPG" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/pictures/1523476130771.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/pictures/IMG_3778.JPG" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      
-    </div>
-  </div>
-<div class="column">
-    <div class="content">
-    <img src="/pictures/1526834132335.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/1519968778755.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/IMG_3201.jpeg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/FullSizeRender.jpeg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/1524870549771.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/IMG_3264.JPG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/1528988987449.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div>
-			
-	<div class="column">
-    <div class="content">
-    <img src="/pictures/1531001486502.JPEG" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-    
-    </div>
-  </div> -->
-<!-- END GRID -->
-</div>
-</div>
-		
-	  </div>
-		
-		
-		<div class="main">
-<hr>
-
-<h2>Click the button to get started    <i class="fas fa-arrow-right"></i></h2>
-
-<!-- Portfolio Gallery Grid -->
-
-	</div>
-	
 </body>
 	
 	<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
 }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
 }
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+
 </script>
 </html>
