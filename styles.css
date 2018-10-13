@@ -203,11 +203,11 @@ img.hover-shadow {
   .sidenav a {font-size: 18px;}
 }*/
 
-/*.slantedDivA{
+.slantedDivA{
       position: relative;
       width: 100%;
       height: auto;
-      background: #e8c22c;
+      background: white;
       box-sizing: border-box;
       padding: 30px;
       color: Black;
@@ -228,4 +228,4 @@ img.hover-shadow {
       left: 0;
       transform-origin: top left;
       transform: skewY(4deg);
-    }*/
+    }
