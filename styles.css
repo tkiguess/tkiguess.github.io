@@ -122,7 +122,7 @@ margin-top:17px;
 .modal {
   display: none;
   position: fixed;
-  z-index: 21;
+  z-index: 2;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -140,7 +140,6 @@ margin-top:17px;
   padding: 0;
   width: 90%;
   max-width: 1200px;
-  z-index: 22;
 }
 
 /* The Close Button */
