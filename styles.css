@@ -1,6 +1,9 @@
 @charset "UTF-8";
 body{font-family: 'Oswald', sans-serif;
 background-color: #e8c22c;
+border: 5px solid black;
+padding: 5px
+fill:white;
 }
 
 /*------picture grid--------*/
@@ -58,10 +61,6 @@ h1{font-size: 1.5em;}
 	color:white;
 }
 
-body {
-border: 5px solid black;
-padding: 30px
-}
 
 #sidewaystext{
 	writing-mode: vertical-rl;
