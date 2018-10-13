@@ -229,3 +229,23 @@ img.hover-shadow {
       transform-origin: top left;
       transform: skewY(4deg);
     }
+
+
+/*back button on about page*/
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
